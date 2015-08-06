@@ -1,39 +1,145 @@
-<html>
-<head>
-<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="all" />
-<title>MIT App Inventor Extensions</title>
-</head>
-<body>
-<div class="container">
-<h1>MIT App Inventor Extensions</h1>
-<p>This site is a simple directory of some example MIT App Inventor
-  Extensions that you can experiment in your own projects. Note:
-  You <b>*must*</b> use the version of MIT App Inventor located at:
-</p>
-<blockaddress>
-<a href="http://extension-test.appinventor.mit.edu"
-   target="_blank">http://extension-test.appinventor.mit.edu</a>
-</blockaddress>
-<br /><br />
-<div class="table-responsive">
-<table border=1  class="table table-hover">
-<tr><th>Description</th><th>Download .aix file</th><th>Source Code</th></tr>
-<tr><td>VectorArithmetic created by <strong>Ethan Hon</strong><br/>
-Takes in two vectors and can add them to return a result
-    vector.</td><td><a href="data/VectorArithmetic.aix">Download</a></td><td></td></tr>
-<tr><td>ImageProcessor created by <strong>Justus Raju</strong><br />
-    ImageProcessor can do a weighted combine of two images, return the
-    greyscale of an image and do a color blend on an image.
-</td>
-<td><a href="data/ImageProcessor.aix">Download</a></td><td><a href="data/ImageProcessor_src.zip">Source Download</a></td></tr>
-<tr><td>SoundAnalysis created by <strong>Mouhamadou Oumar Sall</strong><br />
- Multimedia component that analyzes the pitch of a sound through the
- microphone and returns it. It can be used as an input to different
- situations, for instance to control some components with a specific
- sound whistle(pitch > 500Hz) or clap(pitch > 2000Hz).
-</td><td><a href="data/SoundAnalysis.aix">Download</a></td><td></td></tr>
-</table>
-</div>
-</div>
-</body>
+<html lang="en">
+	<head>
+		<!-- These 3 meta tags must come first. -->
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="MIT App Inventor Extensions">
+		<meta name="author" content="Jeffrey I. Schiller, William S. Byrne">
+		<link type="image/png" rel="icon" href="images/logo.png">
+
+		<title>MIT App Inventor Extensions</title>
+
+		<!-- Bootstrap core CSS -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="all">
+
+		<!-- Custom Stylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/extensions.css" media="all">
+		
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="http://appinventor.mit.edu">
+						<img alt="Brand" src="images/logo.png" width="27px">
+					</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#dir">Directory</a></li>
+						<li><a href="http://ai2.appinventor.mit.edu/reference/other/extensions.html">Documentation</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Title and Info -->
+		<div class="container-fluid">
+			<div class="jumbotron">
+				<h1>MIT App Inventor Extensions</h1>
+				<p>
+					This site is simple directory for example MIT App Inventor Extensions that you can experiment with in your own projects.
+				</p>
+				<p>
+					<a class="btn btn-lg btn-success" href="http://extension-test.appinventor.mit.edu" role="button">Try App Inventor Extensions &raquo;</a>
+				</p>
+			</div>
+		</div>
+
+		<!-- Must use instance alert -->
+		<div class="container-fluid">
+			<div class="alert alert-danger alert-dismissable">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<strong>Note:</strong> For the time being, you must use the version of MIT App Inventor linked above.
+			</div>
+		</div>
+
+		<!-- Extensions Directory -->
+		<div id="dir" class="container-fluid anchor">
+			<h1>Extensions Directory</h1>
+
+			<div class="table-responsive">
+				<table class="table table-hover table-bordered">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Description</th>
+							<th>Author</th>
+							<th>Download .aix File</th>
+							<th>Source Code</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								VectorArithmetic
+							</td>
+							<td>
+								Takes in two vectors and can add them to return a result vector.
+							</td>
+							<td>
+								Ethan Hon
+							</td>
+							<td>
+								<a href="data/VectorArithmetic.aix">VectorArithmetic.aix</a>
+							</td>
+							<td>
+								<!-- Fill when available -->
+							</td>
+						</tr>
+						<tr>
+							<td>
+								ImageProcessor
+							</td>
+							<td>
+								ImageProcessor can do a weighted combine of two images, return the greyscale of an image and do a color blend on an image.
+							</td>
+							<td>
+								Justus Raju
+							</td>
+							<td>
+								<a href="data/ImageProcessor.aix">ImageProcessor.aix</a>
+							</td>
+							<td>
+								<a href="data/ImageProcessor_src.zip">Source.zip</a>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								SoundAnalysis
+							</td>
+							<td>
+								Multimedia component that analyzes the pitch of a sound through the microphone and returns it. It can be used as an input to different situations, for instance to control some components with a specific sound whistle(pitch &gt; 500Hz) or clap(pitch &gt; 2000Hz).
+							</td>
+							<td>
+								Mouhamadou Oumar Sall
+							</td>
+							<td>
+								<a href="data/SoundAnalysis.aix">SoundAnalysis.aix</a>
+							</td>
+							<td>
+								<!-- Fill when available -->
+							</td>
+						</tr>						
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script type="text/JavaScript" src="js/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script type="text/JavaScript" src="js/bootstrap.min.js"></script>
+	</body>
 </html>

@@ -1,0 +1,21 @@
+body {
+	min-height: 1215px; /* Accomodate all anchors */
+	padding-top: 70px; /* Pad the navbar */
+}
+
+/* Prevent white-space wrapping in table headers */
+thead {
+	white-space: nowrap;
+}
+
+/* Allow white-space wrapping in table bodies */
+tbody {
+	white-space: normal;
+}
+
+/* Accomodate the navbar when jumping to anchors */
+.anchor {
+	padding-top: 40px; 
+	margin-top: -40px;
+}
+
