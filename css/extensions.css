@@ -19,3 +19,7 @@ tbody {
 	margin-top: -40px;
 }
 
+.navbar-brand {
+    height: inherit;
+    padding: 8px 8px 8px 15px;;
+}
