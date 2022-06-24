@@ -8,7 +8,7 @@ Rule based AI: (w/o AI extensions)
 * [TherapistBot_FINAL.aia](Completed/TherapistBot_FINAL.aia)
 * [RockPaperScissors_withAI_FINAL.aia](Completed/RockPaperScissors_withAI_FINAL.aia)
 
-ML based AI: (w/ AI extensions
+ML based AI: (w/ AI extensions)
 * [Facemesh_FINAL.aia](Completed/Facemesh_FINAL.aia)
 * [PICaboo_FINAL.aia](Completed/PICaboo_FINAL.aia)
 * [AIDance_FINAL.aia](Completed/AIDance_FINAL.aia)
