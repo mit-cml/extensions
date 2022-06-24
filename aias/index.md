@@ -1,11 +1,19 @@
 Below are links to some completed projects using MIT App Inventor's AI extensions.
 
-* [AIDance_FINAL.aia](Completed/AIDance_FINAL.aia)
+* [FakeVoices_FINAL.aia](Completed/FakeVoices_FINAL.aia)
+* 
+* Rule based AI:
+* [VoiceCaluclator_FINAL.aia](Completed/VoiceCaluclator_FINAL.aia)
+* [TherapistBot_FINAL.aia](Completed/TherapistBot_FINAL.aia)
+* [RockPaperScissors_withAI_FINAL.aia](Completed/RockPaperScissors_withAI_FINAL.aia)
+
+ML based AI:
 * [Facemesh_FINAL.aia](Completed/Facemesh_FINAL.aia)
 * [PICaboo_FINAL.aia](Completed/PICaboo_FINAL.aia)
-* [RockPaperScissors_withAI_FINAL.aia](Completed/RockPaperScissors_withAI_FINAL.aia)
-* [TherapistBot_FINAL.aia](Completed/TherapistBot_FINAL.aia)
-* [VoiceCaluclator_FINAL.aia](Completed/VoiceCaluclator_FINAL.aia)
+* [AIDance_FINAL.aia](Completed/AIDance_FINAL.aia)
+
+Alexa:
+* [ALEXA_number_guesser_FINAL.aia](Completed/ALEXA_number_guesser_FINAL.aia)
 
 The template files you will need are:
 
