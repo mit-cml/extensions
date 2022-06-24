@@ -4,7 +4,7 @@ Non-AI:
 * [FakeVoices_FINAL.aia](Completed/FakeVoices_FINAL.aia)
 
 Rule based AI: (w/o AI extensions)
-* [VoiceCaluclator_FINAL.aia](Completed/VoiceCaluclator_FINAL.aia)
+* [VoiceCalculator_FINAL.aia](Completed/VoiceCaluclator_FINAL.aia)
 * [TherapistBot_FINAL.aia](Completed/TherapistBot_FINAL.aia)
 * [RockPaperScissors_withAI_FINAL.aia](Completed/RockPaperScissors_withAI_FINAL.aia)
 
