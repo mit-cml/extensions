@@ -2,7 +2,7 @@ Below are links to some completed projects using MIT App Inventor's AI tutorials
 
 Non-AI:
 * [FakeVoices_FINAL.aia](Completed/FakeVoices_FINAL.aia)
-* 
+
 Rule based AI: (w/o AI extensions)
 * [VoiceCaluclator_FINAL.aia](Completed/VoiceCaluclator_FINAL.aia)
 * [TherapistBot_FINAL.aia](Completed/TherapistBot_FINAL.aia)
