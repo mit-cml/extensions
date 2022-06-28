@@ -18,5 +18,7 @@ Alexa:
 
 The template files you will need are:
 * [FakeVoices_Template.aia](Templates/FakeVoices_Template.aia)
-* [PICaboo_Template.aia](Templates/PICaboo_Template.aia)
 * [VoiceCalculator_Template.aia](Templates/VoiceCalculator_Template.aia)
+* [Facemesh_Template.aia](Templates/Facemesh_Template.aia)
+* [PICaboo_Template.aia](Templates/PICaboo_Template.aia)
+
